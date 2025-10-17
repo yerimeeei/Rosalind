@@ -102,7 +102,7 @@ def needleman_wunsch(v, w):
 
 
 if __name__ == "__main__":
-    input_file = "input2.txt"  # change this to your file
+    input_file = "input2.txt"
     with open(input_file) as f:
         lines = [line.strip() for line in f if line.strip()]
         v, w = lines[0], lines[1]
